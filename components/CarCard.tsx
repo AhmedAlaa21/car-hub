@@ -23,7 +23,7 @@ const CarCard: React.FC<CarCardProps> = ({ car }) => {
         </h2>
       </div>
 
-      <p className="flex mt-6 text-[32px] font-extra-bold">
+      <p className="flex mt-6 text-[32px] font-extrabold">
         <span className="self-start text-[14px] font-semibold">$</span>
         {carRent}
         <span className="self-end text-[14px] font-medium">/day</span>
